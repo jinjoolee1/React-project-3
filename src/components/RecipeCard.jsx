@@ -1,5 +1,7 @@
 import React from "react";
+import { Navigate } from "react-router-dom";
 import styles from "./RecipeCard.module.css";
+import { useNavigate } from "react-router-dom";
 
 const RecipeCard = ({recipe}) => {
     const navigate = useNavigate()
